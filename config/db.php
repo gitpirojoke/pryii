@@ -4,9 +4,9 @@ return [
         // ...
         'db' => [
             'class' => 'yii\db\Connection',
-            'dsn' => 'mysql:host=mysql;dbname=base1',
-            'username' => 'root',
-            'password' => 'root',
+            'dsn' => 'mysql:host=127.0.0.1;dbname=base1',
+            'username' => 'default',
+            'password' => 'secret',
             'charset' => 'utf8',
         ],
     ],
